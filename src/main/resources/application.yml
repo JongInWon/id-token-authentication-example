@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: oidc
+
+social:
+  kakao:
+    audience: "your-kakao-client-id"
+    issuer: "https://kauth.kakao.com"
+    jwksUrl: "https://kauth.kakao.com/.well-known/jwks.json"
+  apple:
+    audience: "your-apple-client-id"
+    issuer: "https://appleid.apple.com"
+    jwksUrl: "https://appleid.apple.com/auth/keys"
