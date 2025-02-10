@@ -74,8 +74,8 @@ social:
 POST /api/v1/login
 Content-Type: application/json
 {
-"socialType": "APPLE", // 또는 "KAKAO"
-"idToken": "your.id.token"
+    "socialType": "APPLE", // 또는 "KAKAO"
+    "idToken": "your.id.token"
 }
 ```
 
